@@ -44,13 +44,15 @@ public class Company {
         employees.add(D2);
         employees.add(D3);
         employees.add(D4);
-        int size=employees.size();
-        System.out.println("Count of other employees : "+size);
+
+
         int size1=managers.size();
-        System.out.println("Count of Department managers: "+size);
+        System.out.println("Count of Department managers: "+size1);
         int size2=developers.size();
 
-        System.out.println("Count of developers :"+size);
+        System.out.println("Count of developers :"+size2);
+        int size=employees.size();
+        System.out.println("Count of other employees : "+size);
 
         for (President manage : managers) {
 
