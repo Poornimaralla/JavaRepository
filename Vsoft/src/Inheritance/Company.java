@@ -53,20 +53,21 @@ public class Company {
         System.out.println("Count of developers :"+size2);
         int size=employees.size();
         System.out.println("Count of other employees : "+size);
+        System.out.println("List of Managers:");
 
         for (President manage : managers) {
 
-            System.out.println(manage.m_name + " is " + manage.m_designation + " of " + manage.department);}
+            System.out.println(manage.m_name + " --> " + manage.m_designation + " of " + manage.department);}
 
 
 
         System.out.println("List of Developers :");
         for (Manager develop : developers) {
-            System.out.println(develop.d_name + " is " + develop.d_designation + " of " + develop.d_department);
+            System.out.println(develop.d_name + " --> " + develop.d_designation + " of " + develop.d_department);
         }
         System.out.println("List of other Employess");
         for(Developer develop:employees){
-            System.out.println(develop.e_name+" for "+develop.e_department);
+            System.out.println(develop.e_name+" --> "+develop.e_department);
 
         }
 
